@@ -1,0 +1,1 @@
+../../../../../SalesforceMobileSDK-iOS/external/MKNetworkKit/MKNetworkKit/Categories/NSData+MKBase64.h

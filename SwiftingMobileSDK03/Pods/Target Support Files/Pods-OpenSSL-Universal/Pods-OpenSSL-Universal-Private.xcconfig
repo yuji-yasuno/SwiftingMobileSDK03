@@ -1,0 +1,7 @@
+#include "Pods-OpenSSL-Universal.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/OpenSSL-Universal" "${PODS_ROOT}/Headers/Private/OpenSSL-Universal/openssl" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OpenSSL-Universal" "${PODS_ROOT}/Headers/Public/OpenSSL-Universal/openssl" "${PODS_ROOT}/Headers/Public/SQLCipher" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/MKNetworkKit-iOS" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceCommonUtils" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceNetworkSDK" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceOAuth" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceRestAPI" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceSDKCommon" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceSDKCore" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SalesforceSecurity" "${PODS_ROOT}/Headers/Public/SalesforceMobileSDK-iOS/Headers/SmartSync"
+LIBRARY_SEARCH_PATHS = ${PODS_OPENSSL_UNIVERSAL_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = ${PODS_OPENSSL_UNIVERSAL_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

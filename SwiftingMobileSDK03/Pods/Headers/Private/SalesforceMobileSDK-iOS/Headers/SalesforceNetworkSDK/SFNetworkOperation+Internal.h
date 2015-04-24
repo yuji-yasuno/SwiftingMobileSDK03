@@ -1,0 +1,1 @@
+../../../../../SalesforceMobileSDK-iOS/libs/SalesforceNetworkSDK/SalesforceNetworkSDK/SFNetworkOperation+Internal.h
