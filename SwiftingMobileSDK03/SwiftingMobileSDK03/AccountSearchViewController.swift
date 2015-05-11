@@ -29,7 +29,7 @@ class AccountSearchViewController: UITableViewController, UISearchBarDelegate {
         if segue.identifier == "show_detail" {
             var detailVC = segue.destinationViewController as! AccountDetailViewController
             var indexPath = self.tableView.indexPathForSelectedRow()
-            detailVC.account = self.accounts?[indexPath!.row] as? [String:AnyObject]
+            detailVC.account = self.accounts?[indexPath!.row] as? [NSObject:AnyObject]
         }
     }
 
@@ -45,7 +45,7 @@ class AccountSearchViewController: UITableViewController, UISearchBarDelegate {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("account_cell", forIndexPath: indexPath) as! UITableViewCell
-        var account = self.accounts![indexPath.row] as! [String:AnyObject]
+        var account = self.accounts![indexPath.row] as! [NSObject:AnyObject]
         cell.textLabel?.text = account["Name"] as? String
         return cell
     }

@@ -16,6 +16,7 @@
 		2876509E1AEA312200BD3C73 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2876509D1AEA312200BD3C73 /* Podfile */; };
 		287650A11AEA35CB00BD3C73 /* AccountSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287650A01AEA35CB00BD3C73 /* AccountSearchViewController.swift */; };
 		287650A31AEA46FD00BD3C73 /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287650A21AEA46FD00BD3C73 /* AccountDetailViewController.swift */; };
+		289161A61B006DFA00882D9E /* AccountEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289161A51B006DFA00882D9E /* AccountEditViewController.swift */; };
 		63AE3AD382AFA101CB1CEC95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D292607DBB38EB8894F27574 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		2876509F1AEA32C300BD3C73 /* SwiftingMobileSDK03-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SwiftingMobileSDK03-Bridging-Header.h"; path = "SwiftingMobileSDK03/SwiftingMobileSDK03-Bridging-Header.h"; sourceTree = "<group>"; };
 		287650A01AEA35CB00BD3C73 /* AccountSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSearchViewController.swift; sourceTree = "<group>"; };
 		287650A21AEA46FD00BD3C73 /* AccountDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		289161A51B006DFA00882D9E /* AccountEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountEditViewController.swift; sourceTree = "<group>"; };
 		C21E836334FA1B0E3A508360 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D292607DBB38EB8894F27574 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E697D9A30E1B8FBE0651A42C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2876507F1AEA306C00BD3C73 /* ViewController.swift */,
 				287650A01AEA35CB00BD3C73 /* AccountSearchViewController.swift */,
 				287650A21AEA46FD00BD3C73 /* AccountDetailViewController.swift */,
+				289161A51B006DFA00882D9E /* AccountEditViewController.swift */,
 				2876507B1AEA306C00BD3C73 /* Supporting Files */,
 			);
 			path = SwiftingMobileSDK03;
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289161A61B006DFA00882D9E /* AccountEditViewController.swift in Sources */,
 				287650801AEA306C00BD3C73 /* ViewController.swift in Sources */,
 				287650A31AEA46FD00BD3C73 /* AccountDetailViewController.swift in Sources */,
 				2876507E1AEA306C00BD3C73 /* AppDelegate.swift in Sources */,
